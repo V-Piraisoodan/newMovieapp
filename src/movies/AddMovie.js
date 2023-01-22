@@ -31,7 +31,7 @@ export function AddMovie({ movie, setmovie }) {
     };
 
     //api add
-    fetch("https://movieapp-jbzi.onrender.com/movies",
+    fetch("https://62dd3993ccdf9f7ec2c27434.mockapi.io/movies",
     {
       method : "POST",
       body : JSON.stringify(newMovie),

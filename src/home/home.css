@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
+.homepage-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url(pngegg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 3px;
+}
+.homepage-container>h1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(253, 253, 253, 0.836);
+    font-size: 45px;
+    padding: 15px 40px;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow: rgba(33, 33, 34, 0.35) 0px 5px 15px;
+    font-family: "alata",sans-serif;
+}

@@ -8,6 +8,7 @@ import { AddMovie } from './movies/AddMovie';
 import { EditMovie } from './movies/EditMovie';
 // import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 import { useHistory } from 'react-router-dom';
+import { Homepage } from "./home/home"
 
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
@@ -61,7 +62,7 @@ function App() {
          <li><Link to='/color-game' className='navication_list'>Color-Game</Link></li>
         </ul> */}
 
-        <AppBar position="static">
+        <AppBar position="sticky">
           <Toolbar>
             <Button onClick={()=>history.push('/')}
               size="large" color="inherit" aria-label="Home">
@@ -92,7 +93,7 @@ function App() {
         <Switch>
           {/* home path */}
           <Route exact path='/'>
-            <p>Welcome to the Movie App!!!!!</p>
+            <Homepage theme={darkTheme}/>
           </Route>
 
           {/* film new path,it is redirected to the "/movies" path */}

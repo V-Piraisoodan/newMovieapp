@@ -12,7 +12,7 @@ export function Movielist() {
   console.log(movie)
 
   const getMovies = () => {
-    fetch("https://movieapp-jbzi.onrender.com/movies",
+    fetch("https://62dd3993ccdf9f7ec2c27434.mockapi.io/movies",
     {
       method : "GET",
     }) //to get the api

@@ -13,7 +13,7 @@ export function MoviesDetails() {
 
   const [movie , setMovie] = useState({});
   useEffect(()=>{
-    fetch(`https://movieapp-jbzi.onrender.com/movies/${id}`,
+    fetch(`https://62dd3993ccdf9f7ec2c27434.mockapi.io/movies/${id}`,
     {
       method: "GET",
     })                                                          //to get the api
